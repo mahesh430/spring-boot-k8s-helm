@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: nginx
+        image: stable-alpine3.17-slim
         ports:
         - containerPort: 8080
