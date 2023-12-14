@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: mahesh430/complete-cicd:16
+  repository: mahesh430/complete-cicd:1
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -41,7 +41,7 @@ securityContext: {}
 
 service:
   type: NodePort
-  port: 8080
+  port: 80
 
 ingress:
   enabled: false
