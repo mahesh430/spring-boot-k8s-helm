@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: mahesh430/complete-cicd:52
+  repository: mahesh430/complete-cicd:53
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
