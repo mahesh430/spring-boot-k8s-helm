@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: nginx
+        image: mahesh430/aws-inventory-app:5
         ports:
         - containerPort: 8080
