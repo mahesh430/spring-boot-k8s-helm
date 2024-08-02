@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: mahesh430/aws-inventory-app:5
+        image: mahesh430/aws-inventory-app:4
         ports:
         - containerPort: 8080
